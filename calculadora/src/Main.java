@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       //Adicionar a lógica após criar a classe calcular APP
+       var scanner = new Scanner(System.in);
+       double valorUm;
+       double valorDois;
+       string op;
+       boolean continuar;
     }
 }
