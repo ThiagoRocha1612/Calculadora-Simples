@@ -1,4 +1,4 @@
-import java.util.locate;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class calculadorApp {
@@ -21,5 +21,12 @@ public class calculadorApp {
                 yield 0.0;
             }
         };
+    }
+
+    public static boolean novaOperacao() {
+        var sc = new Scanner(System.in);
+        System.out.println("Deseja realizar outra operação? [Sim ou Não]");
+        var resposta = sc.nextLine().toUpperCase(Locale.ROOT);
+        return !resposta.equals(NÃO) && !resposta.equals(NAO);
     }
 }
