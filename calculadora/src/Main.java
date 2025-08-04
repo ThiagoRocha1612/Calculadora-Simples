@@ -8,5 +8,13 @@ public class Main {
        double valorDois;
        string op;
        boolean continuar;
+
+       try{
+           do{
+               //lógica
+           } while(continuar);
+       } catch (ImputMismatchException ex){
+           System.out.println("Erro: os valores devem ser numéricos");
+       }
     }
 }
