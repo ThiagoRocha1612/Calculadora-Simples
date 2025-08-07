@@ -21,7 +21,9 @@ public class Main {
                System.out.println("digite o segundo valor:");
                valorDois = scanner.nextDouble();
 
-               System.out.println("Resultado:" + calculadorApp.calculo(valorUm, valorDois, String op));
+               System.out.println("Resultado:" + calculadorApp.calculo(valorUm, valorDois, op));
+
+               continuar = calculadorApp.novaOperacao();
 
            } while(continuar);
        } catch (InputMismatchException ex){
