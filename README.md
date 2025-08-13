@@ -1,10 +1,10 @@
-# 📱 Calculadora Java no Terminal
+#  Calculadora Java no Terminal
 
 Este é um projeto simples de uma **calculadora feita em Java**, executada via terminal. Ele permite realizar operações matemáticas básicas e foi desenvolvido com foco em praticar os fundamentos da linguagem.
 
 ---
 
-🔧 Funcionalidades
+# Funcionalidades
 
 - Entrada de dois valores numéricos pelo usuário.
 - Suporte às operações:
@@ -19,14 +19,14 @@ Este é um projeto simples de uma **calculadora feita em Java**, executada via t
 
 ---
 
-📁 Estrutura do Projeto
+# Estrutura do Projeto
 
 - `Main.java`: classe principal que gerencia a interação com o usuário e o fluxo do programa.
 - `CalculadoraApp.java`: classe utilitária com métodos que realizam os cálculos e controlam a repetição do programa.
 
 ---
 
-▶️ Como Executar
+# Como Executar
 
 1. Certifique-se de ter o **Java instalado** (recomenda-se JDK 17 ou superior).
 2. Compile os arquivos no terminal:
@@ -43,7 +43,7 @@ java Main`
 
 ---
 
-💬 Exemplo de Uso
+# Exemplo de Uso
 
 1. Digite o primeiro valor: 
 **10**
@@ -63,7 +63,7 @@ java Main`
 
 ---
 
-⚠️ Tratamento de Erros
+# Tratamento de Erros
 
 Entradas não numéricas exibem a mensagem:
 
@@ -77,7 +77,7 @@ Divisão por zero é impedida com a mensagem:
 
 ---
 
-📚 Conceitos Aplicados
+# Conceitos Aplicados
 
 - Leitura de dados com Scanner
 
@@ -91,6 +91,6 @@ Divisão por zero é impedida com a mensagem:
 
 ---
 
-✍️ Autor
+# Autor
 
 Desenvolvido por [Thiago Rocha](https://github.com/thiagorocha1612) como parte dos estudos em Java e lógica de programação.
